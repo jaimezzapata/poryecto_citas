@@ -1,0 +1,94 @@
+.tabla{
+    border-spacing: 50px;
+}
+
+#fotos{
+    width: 200px;
+    height: 150px;
+    border: solid white;
+    border-radius: 20px;
+    padding: 5px;
+}
+.fotos{
+ 
+        width: 250px;
+        height: 150px;
+        border: solid white;
+        border-radius: 20px;
+        padding: 5px;
+ 
+}
+
+#fotos:hover{
+    -webkit-transform: scale(2.3);
+    transform: scale(2.3);
+}
+
+td{
+    text-align: center;
+    width: 100px;
+    font-family: 'Libre Franklin', sans-serif;
+    text-transform:capitalize;
+    font-size: 14px;
+    border-style:solid ;
+    border-color: rgba(248, 247, 247, );
+    border-radius:5px;
+    font-weight:bold;
+   
+}
+
+
+
+.contenedorFormulario{
+  display: flex;
+  justify-content:flex-start;
+  margin-right: 40px;
+  margin-left: 30px;
+  text-align: center;
+  border-radius: 5px;
+  width:max-content;
+  background-color:rgba(231, 231, 243, 0.6);;
+  color: rgb(11, 8, 8);
+  font-weight: bold;
+  margin-top: 3em;
+  font-size: 15px;
+  text-transform: capitalize;
+  font-family: 'Roboto', sans-serif;
+ 
+  
+  
+}
+.contenedort{
+
+    display: flex;
+    justify-content: center;
+    
+}
+input{
+    
+    border-style: solid ;
+    border-radius: 10px;
+}
+button{
+    background-color: rgba(233, 240, 240, 0.5);
+    border-color: rgb(5, 5, 5);
+    border-radius: 5px;
+    border-style: solid;
+}
+#botones{
+    width: 170px;
+    border-style: solid;
+    border-radius: 30px;
+    border-color: white;
+    background-color: rgb(30, 50, 58,0.8);
+    color: rgb(255, 255, 255);
+
+}
+
+#botones:hover{
+    background-color: rgb(102, 102, 237,0.4);
+}
+
+.containertabla{
+    margin-top: 3em;
+}

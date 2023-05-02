@@ -1,0 +1,87 @@
+.subtitle{
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    text-align: center;
+    font-family: 'Tiro Bangla', serif;
+}
+
+.title{
+    font-family: 'Tiro Bangla', serif;
+    text-align: center;
+}
+
+.body_db {
+    background-color: #39b27c;
+}
+
+.rockSalt{
+    font-family: 'Rock Salt', cursive;
+}
+
+.oswald{
+    font-family: 'Oswald', sans-serif;
+}
+
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.db_table{
+    margin-top: 2%;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-bottom: 2%;
+    border-radius: 20px;
+    background-color: rgb(255, 255, 255);
+    padding: 1%;
+    height: 80%;
+}
+
+.db_editar{
+    border-radius: 20px;
+    background-color: rgb(255, 255, 255);
+    padding: 1%;
+    height: 80%;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+thead{
+    font-weight: bold;
+}
+
+th{
+    align-items: center;
+}
+
+.theader{
+    text-align: center;
+    font-size: medium;
+}
+
+thead{
+    background-color: #1a7bb9;;
+}
+
+.zoom_paciente{
+    transition:transform .5s;
+    transition-delay: .2s;
+}
+
+.zoom_paciente:hover{
+    transform: scale(4);
+}
+
+.img_edit_paciente{
+    width: auto;
+}
+
+.footer_paciente{
+    background-color: black;
+    color: white;
+}
+
+
